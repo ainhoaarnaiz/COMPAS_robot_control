@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="robot_cell">
+  <xacro:include filename="$(find ur10e_iaac_support)/urdf/robot_cell_macro.xacro" /> 
+  <xacro:robot_cell/>
+</robot>
